@@ -1,7 +1,7 @@
 (() => {
   "use strict";
 
-  const API_BASE = "http://127.0.0.1:8000";
+  const API_BASE = "https://mental-health-score-predictor-ml-gs2i.onrender.com/";
   const RING_CIRCUMFERENCE = 2 * Math.PI * 96; // matches r=96 in the SVG
 
   const prefersReducedMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
